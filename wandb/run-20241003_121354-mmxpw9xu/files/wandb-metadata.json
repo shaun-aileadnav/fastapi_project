@@ -1,0 +1,32 @@
+{
+  "os": "Windows-10-10.0.19045-SP0",
+  "python": "3.11.9",
+  "startedAt": "2024-10-03T10:13:54.111108Z",
+  "program": "C:\\Users\\shaun\\Documents\\VSC_Files\\python_projects\\main.py",
+  "codePath": "main.py",
+  "git": {
+    "remote": "https://github.com/shaun-aileadnav/CNN_Project.git",
+    "commit": "84590cb559d7d7383e9fd101f2a442dc24ec09cb"
+  },
+  "email": "shaun@ai-leadnav.com",
+  "root": "C:\\Users\\shaun\\Documents\\VSC_Files\\python_projects",
+  "host": "DESKTOP-1SPR7GT",
+  "username": "shaun",
+  "executable": "C:\\Users\\shaun\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe",
+  "codePathLocal": "main.py",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "499429404672",
+      "used": "364752482304"
+    }
+  },
+  "memory": {
+    "total": "17126936576"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  }
+}

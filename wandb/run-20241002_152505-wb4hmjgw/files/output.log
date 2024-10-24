@@ -1,0 +1,22 @@
+Epoch 0
+Traceback (most recent call last):
+  File "C:\Users\shaun\Documents\VSC_Files\python_projects\main.py", line 149, in <module>
+    main()
+  File "C:\Users\shaun\Documents\VSC_Files\python_projects\main.py", line 132, in main
+    trained_model = train_model(train_dl, model, n_epochs=20)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shaun\Documents\VSC_Files\python_projects\main.py", line 89, in train_model
+    opt.step()
+  File "C:\Users\shaun\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\torch\optim\optimizer.py", line 484, in wrapper
+    out = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shaun\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\torch\optim\optimizer.py", line 89, in _use_grad
+    ret = func(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shaun\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\torch\optim\sgd.py", line 123, in step
+    sgd(
+  File "C:\Users\shaun\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\torch\optim\sgd.py", line 299, in sgd
+    func(
+  File "C:\Users\shaun\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\torch\optim\sgd.py", line 352, in _single_tensor_sgd
+    param.add_(grad, alpha=-lr)
+KeyboardInterrupt

@@ -1,0 +1,6 @@
+torch
+torchvision
+numpy
+pytest
+wandb
+fastapi
